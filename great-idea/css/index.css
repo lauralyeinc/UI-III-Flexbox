@@ -136,7 +136,7 @@ header .logo {
 }
 
 .cta img {
-  display: inline-block;
+  display: flex;
   margin-top: 69px;
 }
 
@@ -152,7 +152,8 @@ header .logo {
 
 .main-content .top-content .text-content {
   width: 410px;
-  display: inline-block;
+  display: flex;
+  
   margin-right: 34px;
 }
 
@@ -171,7 +172,7 @@ header .logo {
 
 .main-content .bottom-content .text-content {
   width: 275px;
-  display: inline-block;
+  display: flex;
   margin-right: 12px;
 }
 
