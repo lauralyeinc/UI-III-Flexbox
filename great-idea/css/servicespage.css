@@ -347,3 +347,17 @@ template {
 [hidden] {
   display: none;
 }
+
+/* normalized above */
+
+.ParentContainer{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+header nav{
+  display: flex;
+  margin: 35px;
+}
