@@ -64,7 +64,6 @@ h1, h2, h3, h4, h5 {
 }
 
 /*start here*/
-
 .container {
   width: 880px;
   /* TB LR */
@@ -76,7 +75,7 @@ h1, h2, h3, h4, h5 {
 
 header nav {
   display: flex;
-  width: 691px;
+  width: 880px;
   margin-top: 35px;
 }
 
@@ -105,102 +104,84 @@ header .logo {
   display: flex;
 }
 
-/* cta */
-.cta{
+.Story{
+  width: 880px;
   display: flex;
-  justify-content: space-around;
 }
 
-.cta .cta-text {
-	display: flex;
-  font-size: 77px;
-  margin-top: 120px;
+h1{
+  font-size: 40px;
+  margin: 25px;
   text-align: center;
-  padding: 0px 75px;
+  width: 50%;
+  font-style: bold;
 }
 
-.cta .cta-text button {
-  background: white;
-  vertical-align: top;
-  margin-top: 6px;
-  padding: 8px 44px;
-  font-size: 17px;
-  border: 1px solid black;
-  cursor: pointer;
+h3{
+  font-size: 20px;
+  margin: 5px;
+}
+
+p{
+  margin: 3px;
+}
+
+.HowItBegan{
   display: flex;
   flex-direction: column;
-  flex-flow: wrap;
+  margin: 25px;
+  width: 50%;
 }
 
-button{
-  height: 50px;
-  align-self: center;
-}
-
-
-.cta .cta-text button:hover {
-  background: black;
-  color: white;
-}
-
-.cta img {
+.Center{
+  width: 880px;
   display: flex;
-  margin-top: 69px;
-}
-
-/*main content*/
-
-.main-content {
+  margin: 40px;
+  padding: 20px;
   border-top: 1px solid black;
-  margin-top: 76px;
-  padding-top: 39px;
 }
 
-.main-content .top-content {
-  padding: 0 10px;
+.History{
+  width: 30%;
+  margin-left: 10px;
+  margin-top: 10px;
+
+}
+
+.More{
+  width: 30%;
+  margin: 10px;
+}
+
+.AndMore{
+  width: 30%;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.Bottom{
+  width: 880px;
   display: flex;
-}
-
-.main-content .top-content .text-content {
-  width: 410px;
-  margin-right: 34px;
-}
-
-.main-content .top-content .text-content:last-child {
-  margin-right: 0;
-}
-
-.main-content .middle-img {
-  margin-top: 45px;
-}
-
-.main-content .bottom-content {
-  margin-top: 37px;
-  padding: 0 10px;
-  display: flex;
-}
-
-.main-content .bottom-content .text-content {
-  width: 275px;
-  margin-right: 12px;
-}
-
-.main-content .bottom-content .text-content:last-child {
-  margin-right: 0;
-}
-
-.contact {
-  margin-top: 57px;
+  flex-direction: row;
   border-top: 1px solid black;
-  padding: 39px 10px 0;
+  margin: 20px;
 }
 
-.contact p {
-  margin: 20px 0;
+.LastSpill{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 20px;
 }
 
-footer {
-  margin: 32px 0;
-  text-align: center;
-  font-size: 14px;
+.AndFinally{
+  display: flex;
+justify-items: center;
+  width: 50%;
+  margin: 20px;
 }
+
+
+
+
+
