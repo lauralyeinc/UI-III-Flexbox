@@ -107,7 +107,6 @@ header .logo {
 .Story{
   width: 880px;
   display: flex;
-  margin: 20px;
 }
 
 h1{
@@ -120,6 +119,11 @@ h1{
 
 h3{
   font-size: 20px;
+  margin: 5px;
+}
+
+p{
+  margin: 3px;
 }
 
 .HowItBegan{
@@ -129,7 +133,55 @@ h3{
   width: 50%;
 }
 
-center{
+.Center{
   width: 880px;
+  display: flex;
+  margin: 40px;
+  padding: 20px;
+  border-top: 1px solid black;
 }
+
+.History{
+  width: 30%;
+  margin-left: 10px;
+  margin-top: 10px;
+
+}
+
+.More{
+  width: 30%;
+  margin: 10px;
+}
+
+.AndMore{
+  width: 30%;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.Bottom{
+  width: 880px;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid black;
+  margin: 20px;
+}
+
+.LastSpill{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 20px;
+}
+
+.AndFinally{
+  display: flex;
+justify-items: center;
+  width: 50%;
+  margin: 20px;
+}
+
+
+
+
 
