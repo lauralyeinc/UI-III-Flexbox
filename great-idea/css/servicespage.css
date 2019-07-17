@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* normalized above */
+/* css reset above */
 
 .ParentContainer{
   width: 880px;
@@ -74,13 +74,12 @@ header nav{
   display: flex;
   justify-content: space-evenly;
   margin-top: 35px;
-  width: 691px;
+  width: 880px;
 }
 
 a{
   text-decoration: none;
   color: gray;
-  display: flex;
 }
 
 .TopImg{
@@ -118,35 +117,34 @@ button{
   margin: 10px;
 }
 
-p{
-  margin: 10px;
-}
+
 
 .DD-Box{
- 
   border: 1px solid black;
   background-color: lightgray;
   padding: 15px;
   margin-right: 20px;
+  margin-bottom: 15px;
 }
 
 .UxUi-Box{
-
   border: 1px solid black;
   background-color: lightgray;
   padding: 15px;
   margin-left: 20px;
+  margin-bottom: 15px;
 }
 
 .Box1Box2{
   display: flex;
-  margin: 20px;
+  margin: 10px;
 }
 
 .DigitalM-Box{
   border: 1px solid black;
   background-color: lightgray; padding: 15px;
   margin-right: 20px;
+  margin-bottom: 15px;
 }
 
 .WebD-Box{
@@ -154,11 +152,12 @@ p{
   background-color: lightgray;
   padding: 15px;
   margin-left: 20px;
+  margin-bottom: 15px;
 }
 
 .Box3Box4{
  display: flex;
- margin: 20px;
+ margin: 10px;
 }
 
 
@@ -168,6 +167,7 @@ p{
   background-color: lightgray;
   padding: 15px;
   margin-right: 20px;
+ 
 }
 
 .Android-Box{
@@ -175,11 +175,12 @@ p{
   background-color: lightgray;
   padding: 15px;
   margin-left: 20px;
+ 
 }
 
 .Box5Box6{
  display: flex;
- margin: 20px;
+ margin: 10px;
 }
 
 
@@ -189,8 +190,9 @@ p{
   display: flex;
   width: 880px;
   border-top: 1px solid black;
-  margin-top: 57px;
+  margin-top: 40px;
   padding: 39px 10px 0;
+  margin-bottom: 60px;
 }
 
 .FactsInfoArea{
