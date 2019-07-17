@@ -65,10 +65,12 @@ h1, h2, h3, h4, h5 {
 
 /* normalized above */
 
+.ParentContainer{
+  
+  }
+
 header nav{
-  display: flex;
-  margin: 35px;
-  justify-content: space-around;
+  
 }
 
 .TopImg{
@@ -81,7 +83,20 @@ header nav{
 display: flex;
 }
 
+h1{
+  font-size: 25px;
+}
+
 .CenterArea{
   display: flex; 
-  flex-flow: row;
 }
+
+.BottomArea{
+  display: flex;
+  width: 880px;
+}
+
+.FactsInfoArea{
+  display: flex;
+}
+
