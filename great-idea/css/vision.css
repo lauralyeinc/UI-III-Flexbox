@@ -64,4 +64,72 @@ h1, h2, h3, h4, h5 {
 }
 
 /*start here*/
+.container {
+  width: 880px;
+  /* TB LR */
+  margin: 0 auto;
+}
+
+/* header */
+
+
+header nav {
+  display: flex;
+  width: 880px;
+  margin-top: 35px;
+}
+
+header nav a {
+  margin-right: 65px;
+  font-size: 14px;
+  color: gray;
+	text-decoration: none;
+  display: flex;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+}
+
+header .logo {
+  margin-top: 25px;
+  display: flex;
+}
+
+.Story{
+  width: 880px;
+  display: flex;
+  margin: 20px;
+}
+
+h1{
+  font-size: 40px;
+  margin: 25px;
+  text-align: center;
+  width: 50%;
+  font-style: bold;
+}
+
+h3{
+  font-size: 20px;
+}
+
+.HowItBegan{
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  width: 50%;
+}
+
+center{
+  width: 880px;
+}
 
